@@ -19,12 +19,6 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print("Hello")
-        print("hi")
-        print("master")
-        print("test")
-        print("")
         let jestAlgılayıcı = UIGestureRecognizer(target: self, action:#selector(klavyeKapa))
         view.addGestureRecognizer(jestAlgılayıcı)
 
